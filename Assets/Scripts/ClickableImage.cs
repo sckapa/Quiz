@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class ClickableImage : MonoBehaviour
@@ -20,6 +21,10 @@ public class ClickableImage : MonoBehaviour
     [SerializeField]
     private string Description;
 
+
+    [SerializeField] 
+    private GameObject popupPanel;
+
     private AnimalProperties animalProperties;
 
     void Start()
@@ -28,6 +33,7 @@ public class ClickableImage : MonoBehaviour
         button.onClick.AddListener(() =>
         {
             Debug.Log("Clicked: " + gameObject.name);
+            ShowPopup();
         });
 
         animalProperties.Flying = Flying;
@@ -38,4 +44,11 @@ public class ClickableImage : MonoBehaviour
 
         animalProperties.Description = Description;
     }
+
+    private void ShowPopup()
+    {
+        popupPanel.SetActive(true);
+        // Popup panel elements
+    }
+
 }

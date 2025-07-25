@@ -136,6 +136,8 @@ GameObject:
   - component: {fileID: 247384097}
   - component: {fileID: 247384100}
   - component: {fileID: 247384099}
+  - component: {fileID: 247384101}
+  - component: {fileID: 247384102}
   m_Layer: 5
   m_Name: Butterfly
   m_TagString: Untagged
@@ -218,6 +220,7 @@ MonoBehaviour:
   Description: Butterflies are insects in the macrolepidopteran clade Rhopalocera
     from the order Lepidoptera, which also includes moths. Adult butterflies have
     large, often brightly coloured wings, and conspicuous, fluttering flight.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &247384100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,6 +265,160 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &247384101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247384095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &247384102
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247384095}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!1 &250901727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 250901728}
+  - component: {fileID: 250901731}
+  - component: {fileID: 250901730}
+  - component: {fileID: 250901729}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &250901728
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250901727}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1564394989}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -12, y: -14}
+  m_SizeDelta: {x: 61.522797, y: 66.33249}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &250901729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250901727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 250901730}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1564394988}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &250901730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250901727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 40701beced37ed2499f59620543a7895, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &250901731
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250901727}
+  m_CullTransparentMesh: 1
 --- !u!1 &314193111
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,6 +432,8 @@ GameObject:
   - component: {fileID: 314193113}
   - component: {fileID: 314193116}
   - component: {fileID: 314193115}
+  - component: {fileID: 314193117}
+  - component: {fileID: 314193118}
   m_Layer: 5
   m_Name: Bat
   m_TagString: Untagged
@@ -357,6 +516,7 @@ MonoBehaviour:
   Description: Bats are mammals of the order Chiroptera. With their forelimbs adapted
     as wings, they are the only mammals capable of true and sustained flight. They
     are nocturnal animals.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &314193116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -401,6 +561,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &314193117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314193111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &314193118
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314193111}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &367162867
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,6 +599,8 @@ GameObject:
   - component: {fileID: 367162869}
   - component: {fileID: 367162872}
   - component: {fileID: 367162871}
+  - component: {fileID: 367162873}
+  - component: {fileID: 367162874}
   m_Layer: 5
   m_Name: Duck
   m_TagString: Untagged
@@ -495,6 +682,7 @@ MonoBehaviour:
   LaysEggs: 1
   Description: Duck is a common name for numerous species in waterfowl family Anatidae
     which also includes swans and geese.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &367162872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -539,6 +727,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &367162873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367162867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &367162874
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367162867}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &470939467
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,6 +765,8 @@ GameObject:
   - component: {fileID: 470939469}
   - component: {fileID: 470939472}
   - component: {fileID: 470939471}
+  - component: {fileID: 470939473}
+  - component: {fileID: 470939474}
   m_Layer: 5
   m_Name: Dragonfly
   m_TagString: Untagged
@@ -635,6 +850,7 @@ MonoBehaviour:
     Anisoptera. Adult dragonflies are characterized by large multifaceted eyes, two
     pairs of strong transparent wings, sometimes with coloured patches, and an elongated
     body.'
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &470939472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -679,6 +895,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &470939473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470939467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &470939474
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470939467}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &511548514
 GameObject:
   m_ObjectHideFlags: 0
@@ -692,6 +933,8 @@ GameObject:
   - component: {fileID: 511548516}
   - component: {fileID: 511548519}
   - component: {fileID: 511548518}
+  - component: {fileID: 511548520}
+  - component: {fileID: 511548521}
   m_Layer: 5
   m_Name: Cat
   m_TagString: Untagged
@@ -774,6 +1017,7 @@ MonoBehaviour:
   Description: The domestic cat is a member of the Felidae family and is one of the
     most popular pets in the world. Domestic cats are often called house cats when
     kept as indoor pets.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &511548519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -818,6 +1062,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &511548520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511548514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &511548521
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511548514}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &551621368
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,6 +1100,8 @@ GameObject:
   - component: {fileID: 551621370}
   - component: {fileID: 551621373}
   - component: {fileID: 551621372}
+  - component: {fileID: 551621374}
+  - component: {fileID: 551621375}
   m_Layer: 5
   m_Name: Bee
   m_TagString: Untagged
@@ -913,6 +1184,7 @@ MonoBehaviour:
   Description: Bees are flying insects closely related to wasps and ants, known for
     their role in pollination and, in the case of the best-known bee species, the
     western honey bee, for producing honey. They live in colonies and can sting.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &551621373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -957,6 +1229,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &551621374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551621368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &551621375
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551621368}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &561390758
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,6 +1267,8 @@ GameObject:
   - component: {fileID: 561390760}
   - component: {fileID: 561390763}
   - component: {fileID: 561390762}
+  - component: {fileID: 561390764}
+  - component: {fileID: 561390765}
   m_Layer: 5
   m_Name: Cow
   m_TagString: Untagged
@@ -1052,6 +1351,7 @@ MonoBehaviour:
   Description: "Cattle\u2014colloquially cows\u2014are domesticated mammals that
     constitute the genus Bos, and they are most commonly classified collectively
     as Bos taurus."
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &561390763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1096,6 +1396,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &561390764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561390758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &561390765
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561390758}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &632836866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,6 +1434,8 @@ GameObject:
   - component: {fileID: 632836868}
   - component: {fileID: 632836871}
   - component: {fileID: 632836870}
+  - component: {fileID: 632836872}
+  - component: {fileID: 632836873}
   m_Layer: 5
   m_Name: Dog
   m_TagString: Untagged
@@ -1190,6 +1517,7 @@ MonoBehaviour:
   LaysEggs: 0
   Description: The domestic dog is a domesticated descendant of wolves. The dog descended
     from an ancient wolf ancestor that lived with humans over 15,000 years ago.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &632836871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1234,6 +1562,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &632836872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632836866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &632836873
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632836866}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &645912548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1284,10 +1637,10 @@ RectTransform:
   - {fileID: 1705876207}
   m_Father: {fileID: 1491159110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -73.18628, y: -3.028595}
-  m_SizeDelta: {x: -213.8746, y: -51.2062}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -79, y: 0}
+  m_SizeDelta: {x: 764.12537, y: 454.7938}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &645912550
 MonoBehaviour:
@@ -1340,6 +1693,8 @@ GameObject:
   - component: {fileID: 666734673}
   - component: {fileID: 666734676}
   - component: {fileID: 666734675}
+  - component: {fileID: 666734677}
+  - component: {fileID: 666734678}
   m_Layer: 5
   m_Name: Deer
   m_TagString: Untagged
@@ -1423,6 +1778,7 @@ MonoBehaviour:
     family Cervidae. The two main groups of deer are the Cervinae, including muntjac,
     elk (wapiti), fallow deer and chital, and the Capreolinae, including reindeer
     (caribou), roe deer and moose.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &666734676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1467,6 +1823,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &666734677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666734671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &666734678
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666734671}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &685755237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,6 +1861,8 @@ GameObject:
   - component: {fileID: 685755239}
   - component: {fileID: 685755242}
   - component: {fileID: 685755241}
+  - component: {fileID: 685755243}
+  - component: {fileID: 685755244}
   m_Layer: 5
   m_Name: Ant
   m_TagString: Untagged
@@ -1562,6 +1945,7 @@ MonoBehaviour:
   Description: Ants form colonies that range in size from a few dozen predatory individuals
     living in small natural cavities to highly organised colonies that may occupy
     large territories and consist of millions of individuals.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &685755242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1606,6 +1990,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &685755243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685755237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &685755244
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685755237}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,6 +2122,8 @@ GameObject:
   - component: {fileID: 843981934}
   - component: {fileID: 843981937}
   - component: {fileID: 843981936}
+  - component: {fileID: 843981938}
+  - component: {fileID: 843981939}
   m_Layer: 5
   m_Name: Fish
   m_TagString: Untagged
@@ -1795,6 +2206,7 @@ MonoBehaviour:
   Description: 'Clownfish or anemonefish are fishes from the subfamily Amphiprioninae
     in the family Pomacentridae. Thirty species are recognized: one in the genus
     Premnas, while the remaining are in the genus Amphiprion.'
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &843981937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1839,6 +2251,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &843981938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843981932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &843981939
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843981932}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &899865773
 GameObject:
   m_ObjectHideFlags: 0
@@ -1852,7 +2289,7 @@ GameObject:
   - component: {fileID: 899865775}
   m_Layer: 5
   m_Name: RawImage (18)
-  m_TagString: Untagged
+  m_TagString: DropTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1872,11 +2309,11 @@ RectTransform:
   - {fileID: 1961112465}
   m_Father: {fileID: 1491159110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 401.0122, y: -122.40932}
-  m_SizeDelta: {x: 157.7156, y: 144.89}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -12, y: 71}
+  m_SizeDelta: {x: 157.71558, y: 144.89}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &899865775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1925,6 +2362,8 @@ GameObject:
   - component: {fileID: 906395692}
   - component: {fileID: 906395695}
   - component: {fileID: 906395694}
+  - component: {fileID: 906395696}
+  - component: {fileID: 906395697}
   m_Layer: 5
   m_Name: Falcon
   m_TagString: Untagged
@@ -2006,6 +2445,7 @@ MonoBehaviour:
   LaysEggs: 1
   Description: Falcons are birds of prey in the genus Falco which includes about
     40 species. Falcons are widely distributed on all continents except Antarctica.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &906395695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2050,6 +2490,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &906395696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906395690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &906395697
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906395690}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2242,10 +2707,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1491159110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 978, y: 506}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1204235151
 MonoBehaviour:
@@ -2298,6 +2763,8 @@ GameObject:
   - component: {fileID: 1292951778}
   - component: {fileID: 1292951781}
   - component: {fileID: 1292951780}
+  - component: {fileID: 1292951782}
+  - component: {fileID: 1292951783}
   m_Layer: 5
   m_Name: Bug
   m_TagString: Untagged
@@ -2383,6 +2850,7 @@ MonoBehaviour:
     \"wing\", thus \"sheathed wing\", because most beetles have two pairs of wings,
     the front pair, the elytra, being hardened and thickened into a shell-like protection
     for the rear pair and the beetle's abdomen."
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &1292951781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2427,6 +2895,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1292951782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292951776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &1292951783
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292951776}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1376586327
 GameObject:
   m_ObjectHideFlags: 0
@@ -2440,6 +2933,8 @@ GameObject:
   - component: {fileID: 1376586329}
   - component: {fileID: 1376586332}
   - component: {fileID: 1376586331}
+  - component: {fileID: 1376586333}
+  - component: {fileID: 1376586334}
   m_Layer: 5
   m_Name: Bird
   m_TagString: Untagged
@@ -2522,6 +3017,7 @@ MonoBehaviour:
   Description: Sparrows are a family of small passerine birds. They are also known
     as true sparrows, or Old World sparrows, names also used for a particular genus
     of the family, Passer.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &1376586332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2566,6 +3062,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1376586333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376586327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &1376586334
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376586327}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1426674020
 GameObject:
   m_ObjectHideFlags: 0
@@ -2579,6 +3100,8 @@ GameObject:
   - component: {fileID: 1426674022}
   - component: {fileID: 1426674025}
   - component: {fileID: 1426674024}
+  - component: {fileID: 1426674026}
+  - component: {fileID: 1426674027}
   m_Layer: 5
   m_Name: Chicken
   m_TagString: Untagged
@@ -2660,6 +3183,7 @@ MonoBehaviour:
   LaysEggs: 1
   Description: The chicken is a type of domesticated fowl, a subspecies of the red
     junglefowl. It is one of the most common and widespread domestic animals.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &1426674025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2704,6 +3228,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1426674026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426674020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &1426674027
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426674020}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1444990968
 GameObject:
   m_ObjectHideFlags: 0
@@ -2717,7 +3266,7 @@ GameObject:
   - component: {fileID: 1444990970}
   m_Layer: 5
   m_Name: RawImage (1)
-  m_TagString: Untagged
+  m_TagString: DropTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2738,7 +3287,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0022135, y: 0}
+  m_AnchoredPosition: {x: 0.0021972656, y: 0}
   m_SizeDelta: {x: 157.72, y: 144.89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1444990970
@@ -2871,11 +3420,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1204235150}
-  - {fileID: 645912549}
-  - {fileID: 899865774}
   - {fileID: 2098160119}
+  - {fileID: 899865774}
+  - {fileID: 645912549}
   - {fileID: 1802849880}
   - {fileID: 1721630713}
+  - {fileID: 1564394989}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2896,6 +3446,8 @@ GameObject:
   - component: {fileID: 1491589325}
   - component: {fileID: 1491589328}
   - component: {fileID: 1491589327}
+  - component: {fileID: 1491589329}
+  - component: {fileID: 1491589330}
   m_Layer: 5
   m_Name: Bear
   m_TagString: Untagged
@@ -2979,6 +3531,7 @@ MonoBehaviour:
     as caniforms or doglike carnivorans. Although only eight species of bears are
     extant, they are widespread, appearing in a wide variety of habitats throughout
     the Northern Hemisphere and partially in the Southern Hemisphere.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &1491589328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3023,6 +3576,107 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1491589329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491589323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &1491589330
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491589323}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!1 &1564394988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1564394989}
+  - component: {fileID: 1564394991}
+  - component: {fileID: 1564394990}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1564394989
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564394988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 250901728}
+  m_Father: {fileID: 1491159110}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 724.6921, y: 368.1235}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1564394990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564394988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.20469904, g: 0.21647306, b: 0.8679245, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1564394991
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564394988}
+  m_CullTransparentMesh: 1
 --- !u!1 &1672173436
 GameObject:
   m_ObjectHideFlags: 0
@@ -3036,6 +3690,8 @@ GameObject:
   - component: {fileID: 1672173438}
   - component: {fileID: 1672173441}
   - component: {fileID: 1672173440}
+  - component: {fileID: 1672173442}
+  - component: {fileID: 1672173443}
   m_Layer: 5
   m_Name: Fly
   m_TagString: Untagged
@@ -3118,6 +3774,7 @@ MonoBehaviour:
   Description: True flies are insects of Diptera order which includes house flies,
     mosquitoes etc., characterized by having a single pair of wings on their mesothorax
     and halteres on their metathorax used for balance.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &1672173441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3162,6 +3819,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1672173442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672173436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &1672173443
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672173436}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1705876206
 GameObject:
   m_ObjectHideFlags: 0
@@ -3175,6 +3857,8 @@ GameObject:
   - component: {fileID: 1705876208}
   - component: {fileID: 1705876211}
   - component: {fileID: 1705876210}
+  - component: {fileID: 1705876212}
+  - component: {fileID: 1705876213}
   m_Layer: 5
   m_Name: Grasshopper
   m_TagString: Untagged
@@ -3256,6 +3940,7 @@ MonoBehaviour:
   LaysEggs: 1
   Description: Grasshoppers are insects belonging to suborder Caelifera within order
     Orthoptera. They are herbivorous insects that can jump long distances.
+  popupPanel: {fileID: 1564394988}
 --- !u!114 &1705876211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3300,6 +3985,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1705876212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705876206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396ec4050879c4443bf588d2769cd6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnSpeed: 5
+--- !u!225 &1705876213
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705876206}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1721630712
 GameObject:
   m_ObjectHideFlags: 0
@@ -3332,11 +4042,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1491159110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 401.02, y: -219}
-  m_SizeDelta: {x: 157.72, y: 39.284}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -12, y: 23}
+  m_SizeDelta: {x: 157.71997, y: 39.283997}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &1721630714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3510,11 +4220,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1491159110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 401.02, y: 210}
-  m_SizeDelta: {x: 157.71, y: 39.284}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -14, y: -39}
+  m_SizeDelta: {x: 157.71002, y: 39.283997}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1802849881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3625,7 +4335,7 @@ GameObject:
   - component: {fileID: 1961112466}
   m_Layer: 5
   m_Name: RawImage
-  m_TagString: Untagged
+  m_TagString: DropTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3646,7 +4356,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00059414, y: 0.0014954}
+  m_AnchoredPosition: {x: -0.00061035156, y: 0.0014953613}
   m_SizeDelta: {x: 157.72, y: 144.89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1961112466
@@ -3697,7 +4407,7 @@ GameObject:
   - component: {fileID: 2098160120}
   m_Layer: 5
   m_Name: RawImage (19)
-  m_TagString: Untagged
+  m_TagString: DropTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3717,11 +4427,11 @@ RectTransform:
   - {fileID: 1444990969}
   m_Father: {fileID: 1491159110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 401.0122, y: 112.971405}
-  m_SizeDelta: {x: 157.7156, y: 144.89}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -14, y: -89}
+  m_SizeDelta: {x: 157.71558, y: 144.89001}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &2098160120
 MonoBehaviour:
   m_ObjectHideFlags: 0
