@@ -123,6 +123,274 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &82815246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 82815247}
+  - component: {fileID: 82815249}
+  - component: {fileID: 82815248}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &82815247
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82815246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1491159110}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -165, y: 372.68008}
+  m_SizeDelta: {x: 590.2509, y: 134.64}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &82815248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82815246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: ANIMALS
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 72
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &82815249
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82815246}
+  m_CullTransparentMesh: 1
+--- !u!1 &238686821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 238686822}
+  - component: {fileID: 238686824}
+  - component: {fileID: 238686823}
+  m_Layer: 5
+  m_Name: Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &238686822
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238686821}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1564394989}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 198.62}
+  m_SizeDelta: {x: 333.9941, y: 113.0561}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &238686823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238686821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 72
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &238686824
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238686821}
+  m_CullTransparentMesh: 1
 --- !u!1 &247384095
 GameObject:
   m_ObjectHideFlags: 0
@@ -161,8 +429,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66, y: 150}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -137, y: 278}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &247384097
 MonoBehaviour:
@@ -211,7 +479,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 6
   Flying: 1
   Insect: 1
   Omnivorous: 0
@@ -220,6 +487,8 @@ MonoBehaviour:
   Description: Butterflies are insects in the macrolepidopteran clade Rhopalocera
     from the order Lepidoptera, which also includes moths. Adult butterflies have
     large, often brightly coloured wings, and conspicuous, fluttering flight.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &247384100
 MonoBehaviour:
@@ -457,8 +726,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -317, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -605, y: 0}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &314193113
 MonoBehaviour:
@@ -507,7 +776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 1
   Flying: 1
   Insect: 0
   Omnivorous: 1
@@ -516,6 +784,8 @@ MonoBehaviour:
   Description: Bats are mammals of the order Chiroptera. With their forelimbs adapted
     as wings, they are the only mammals capable of true and sustained flight. They
     are nocturnal animals.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &314193116
 MonoBehaviour:
@@ -586,6 +856,82 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!1 &359344560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 359344561}
+  - component: {fileID: 359344563}
+  - component: {fileID: 359344562}
+  m_Layer: 5
+  m_Name: ScoreCard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &359344561
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359344560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1072272713}
+  m_Father: {fileID: 1491159110}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1258.5554, y: 670.9583}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &359344562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359344560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.20469904, g: 0.21647306, b: 0.8679245, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &359344563
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359344560}
+  m_CullTransparentMesh: 1
 --- !u!1 &367162867
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,8 +970,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 185, y: -150}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 365.00006, y: -271.00003}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &367162869
 MonoBehaviour:
@@ -674,7 +1020,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 14
   Flying: 1
   Insect: 0
   Omnivorous: 0
@@ -682,6 +1027,8 @@ MonoBehaviour:
   LaysEggs: 1
   Description: Duck is a common name for numerous species in waterfowl family Anatidae
     which also includes swans and geese.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &367162872
 MonoBehaviour:
@@ -790,8 +1137,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 185, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 365, y: -3.0000293}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &470939469
 MonoBehaviour:
@@ -840,7 +1187,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 13
   Flying: 1
   Insect: 0
   Omnivorous: 1
@@ -850,6 +1196,8 @@ MonoBehaviour:
     Anisoptera. Adult dragonflies are characterized by large multifaceted eyes, two
     pairs of strong transparent wings, sometimes with coloured patches, and an elongated
     body.'
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &470939472
 MonoBehaviour:
@@ -920,6 +1268,140 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!1 &498997284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 498997285}
+  - component: {fileID: 498997287}
+  - component: {fileID: 498997286}
+  m_Layer: 5
+  m_Name: Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &498997285
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498997284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1564394989}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -93}
+  m_SizeDelta: {x: 944.8501, y: 369.2216}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &498997286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498997284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &498997287
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498997284}
+  m_CullTransparentMesh: 1
 --- !u!1 &511548514
 GameObject:
   m_ObjectHideFlags: 0
@@ -958,8 +1440,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -137, y: -4.9999294}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &511548516
 MonoBehaviour:
@@ -1008,7 +1490,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 7
   Flying: 0
   Insect: 0
   Omnivorous: 1
@@ -1017,6 +1498,8 @@ MonoBehaviour:
   Description: The domestic cat is a member of the Felidae family and is one of the
     most popular pets in the world. Domestic cats are often called house cats when
     kept as indoor pets.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &511548519
 MonoBehaviour:
@@ -1125,8 +1608,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -190, y: 149}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -392, y: 278}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &551621370
 MonoBehaviour:
@@ -1175,7 +1658,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 3
   Flying: 1
   Insect: 1
   Omnivorous: 0
@@ -1184,6 +1666,8 @@ MonoBehaviour:
   Description: Bees are flying insects closely related to wasps and ants, known for
     their role in pollination and, in the case of the best-known bee species, the
     western honey bee, for producing honey. They live in colonies and can sting.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &551621373
 MonoBehaviour:
@@ -1292,8 +1776,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: 1}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 114.99996, y: -4.9999757}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &561390760
 MonoBehaviour:
@@ -1342,7 +1826,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 10
   Flying: 0
   Insect: 0
   Omnivorous: 0
@@ -1351,6 +1834,8 @@ MonoBehaviour:
   Description: "Cattle\u2014colloquially cows\u2014are domesticated mammals that
     constitute the genus Bos, and they are most commonly classified collectively
     as Bos taurus."
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &561390763
 MonoBehaviour:
@@ -1459,8 +1944,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 185, y: 150}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 365, y: 279.99994}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &632836868
 MonoBehaviour:
@@ -1509,7 +1994,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 12
   Flying: 0
   Insect: 0
   Omnivorous: 1
@@ -1517,6 +2001,8 @@ MonoBehaviour:
   LaysEggs: 0
   Description: The domestic dog is a domesticated descendant of wolves. The dog descended
     from an ancient wolf ancestor that lived with humans over 15,000 years ago.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &632836871
 MonoBehaviour:
@@ -1639,8 +2125,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -79, y: 0}
-  m_SizeDelta: {x: 764.12537, y: 454.7938}
+  m_AnchoredPosition: {x: -165, y: -96}
+  m_SizeDelta: {x: 1444.7228, y: 788.8485}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &645912550
 MonoBehaviour:
@@ -1718,8 +2204,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: -149}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 114.99999, y: -272.99997}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &666734673
 MonoBehaviour:
@@ -1768,7 +2254,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 11
   Flying: 0
   Insect: 0
   Omnivorous: 0
@@ -1778,6 +2263,8 @@ MonoBehaviour:
     family Cervidae. The two main groups of deer are the Cervinae, including muntjac,
     elk (wapiti), fallow deer and chital, and the Capreolinae, including reindeer
     (caribou), roe deer and moose.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &666734676
 MonoBehaviour:
@@ -1886,8 +2373,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -317, y: 150}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -605, y: 277.9999}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &685755239
 MonoBehaviour:
@@ -1936,7 +2423,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 0
   Flying: 0
   Insect: 1
   Omnivorous: 1
@@ -1945,6 +2431,8 @@ MonoBehaviour:
   Description: Ants form colonies that range in size from a few dozen predatory individuals
     living in small natural cavities to highly organised colonies that may occupy
     large territories and consist of millions of individuals.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &685755242
 MonoBehaviour:
@@ -2147,8 +2635,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: 151}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 114.99999, y: 277.99997}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &843981934
 MonoBehaviour:
@@ -2197,7 +2685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 9
   Flying: 0
   Insect: 0
   Omnivorous: 1
@@ -2206,6 +2693,8 @@ MonoBehaviour:
   Description: 'Clownfish or anemonefish are fishes from the subfamily Amphiprioninae
     in the family Pomacentridae. Thirty species are recognized: one in the genus
     Premnas, while the remaining are in the genus Amphiprion.'
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &843981937
 MonoBehaviour:
@@ -2289,7 +2778,7 @@ GameObject:
   - component: {fileID: 899865775}
   m_Layer: 5
   m_Name: RawImage (18)
-  m_TagString: DropTarget
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2309,11 +2798,11 @@ RectTransform:
   - {fileID: 1961112465}
   m_Father: {fileID: 1491159110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -12, y: 71}
-  m_SizeDelta: {x: 157.71558, y: 144.89}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -36, y: -693}
+  m_SizeDelta: {x: 295.0841, y: 274.4534}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &899865775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2387,8 +2876,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 310, y: 151}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 602, y: 279.99997}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &906395692
 MonoBehaviour:
@@ -2437,7 +2926,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 15
   Flying: 1
   Insect: 0
   Omnivorous: 1
@@ -2445,6 +2933,8 @@ MonoBehaviour:
   LaysEggs: 1
   Description: Falcons are birds of prey in the genus Falco which includes about
     40 species. Falcons are widely distributed on all continents except Antarctica.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &906395695
 MonoBehaviour:
@@ -2675,6 +3165,140 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1072272712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1072272713}
+  - component: {fileID: 1072272715}
+  - component: {fileID: 1072272714}
+  m_Layer: 5
+  m_Name: Score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1072272713
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072272712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 359344561}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1074.9033, y: 369.2218}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1072272714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072272712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'YOUR SCORE : 0'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 72
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1072272715
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072272712}
+  m_CullTransparentMesh: 1
 --- !u!1 &1204235149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2710,7 +3334,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 978, y: 506}
+  m_SizeDelta: {x: 1920, y: 1139.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1204235151
 MonoBehaviour:
@@ -2788,8 +3412,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -190, y: -151}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -392, y: -271.00003}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1292951778
 MonoBehaviour:
@@ -2838,7 +3462,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 4
   Flying: 1
   Insect: 1
   Omnivorous: 1
@@ -2850,6 +3473,8 @@ MonoBehaviour:
     \"wing\", thus \"sheathed wing\", because most beetles have two pairs of wings,
     the front pair, the elytra, being hardened and thickened into a shell-like protection
     for the rear pair and the beetle's abdomen."
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &1292951781
 MonoBehaviour:
@@ -2958,8 +3583,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -190, y: -1}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -392.00003, y: -3.0000293}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1376586329
 MonoBehaviour:
@@ -3008,7 +3633,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 5
   Flying: 1
   Insect: 0
   Omnivorous: 1
@@ -3017,6 +3641,8 @@ MonoBehaviour:
   Description: Sparrows are a family of small passerine birds. They are also known
     as true sparrows, or Old World sparrows, names also used for a particular genus
     of the family, Passer.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &1376586332
 MonoBehaviour:
@@ -3125,8 +3751,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66, y: -150}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -137, y: -273.00003}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1426674022
 MonoBehaviour:
@@ -3175,7 +3801,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 8
   Flying: 0
   Insect: 0
   Omnivorous: 1
@@ -3183,6 +3808,8 @@ MonoBehaviour:
   LaysEggs: 1
   Description: The chicken is a type of domesticated fowl, a subspecies of the red
     junglefowl. It is one of the most common and widespread domestic animals.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &1426674025
 MonoBehaviour:
@@ -3266,7 +3893,7 @@ GameObject:
   - component: {fileID: 1444990970}
   m_Layer: 5
   m_Name: RawImage (1)
-  m_TagString: DropTarget
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3288,7 +3915,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0021972656, y: 0}
-  m_SizeDelta: {x: 157.72, y: 144.89}
+  m_SizeDelta: {x: 295.09, y: 274.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1444990970
 MonoBehaviour:
@@ -3373,10 +4000,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3426,6 +4053,8 @@ RectTransform:
   - {fileID: 1802849880}
   - {fileID: 1721630713}
   - {fileID: 1564394989}
+  - {fileID: 359344561}
+  - {fileID: 82815247}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3471,8 +4100,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -317, y: -150}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -605, y: -271}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1491589325
 MonoBehaviour:
@@ -3521,7 +4150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 2
   Flying: 0
   Insect: 0
   Omnivorous: 1
@@ -3531,6 +4159,8 @@ MonoBehaviour:
     as caniforms or doglike carnivorans. Although only eight species of bears are
     extant, they are widespread, appearing in a wide variety of habitats throughout
     the Northern Hemisphere and partially in the Southern Hemisphere.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &1491589328
 MonoBehaviour:
@@ -3613,7 +4243,7 @@ GameObject:
   - component: {fileID: 1564394991}
   - component: {fileID: 1564394990}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: InfoPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3632,12 +4262,14 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 250901728}
+  - {fileID: 238686822}
+  - {fileID: 498997285}
   m_Father: {fileID: 1491159110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 724.6921, y: 368.1235}
+  m_SizeDelta: {x: 1258.5554, y: 670.9583}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564394990
 MonoBehaviour:
@@ -3715,8 +4347,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 310, y: 1}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 601.9999, y: -3.0000293}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1672173438
 MonoBehaviour:
@@ -3765,7 +4397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 16
   Flying: 1
   Insect: 1
   Omnivorous: 1
@@ -3774,6 +4405,8 @@ MonoBehaviour:
   Description: True flies are insects of Diptera order which includes house flies,
     mosquitoes etc., characterized by having a single pair of wings on their mesothorax
     and halteres on their metathorax used for balance.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &1672173441
 MonoBehaviour:
@@ -3882,8 +4515,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 310, y: -149}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 602, y: -271.00003}
+  m_SizeDelta: {x: 174.9283, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1705876208
 MonoBehaviour:
@@ -3932,7 +4565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea62b83f52c173e499223e5f6058a6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: 17
   Flying: 0
   Insect: 1
   Omnivorous: 1
@@ -3940,6 +4572,8 @@ MonoBehaviour:
   LaysEggs: 1
   Description: Grasshoppers are insects belonging to suborder Caelifera within order
     Orthoptera. They are herbivorous insects that can jump long distances.
+  descriptionText: {fileID: 498997286}
+  nameText: {fileID: 238686823}
   popupPanel: {fileID: 1564394988}
 --- !u!114 &1705876211
 MonoBehaviour:
@@ -4042,11 +4676,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1491159110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -12, y: 23}
-  m_SizeDelta: {x: 157.71997, y: 39.283997}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -36.004, y: -1009}
+  m_SizeDelta: {x: 295.08, y: 70.504}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1721630714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4094,7 +4728,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.15
+  m_fontSize: 63.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4173,6 +4807,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fbfba282eeaf5744946264f22580e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  categoryTrueText: {fileID: 1721630714}
+  categoryFalseText: {fileID: 1802849881}
+  scoreText: {fileID: 1072272714}
+  scoreCard: {fileID: 359344560}
 --- !u!4 &1731825142
 Transform:
   m_ObjectHideFlags: 0
@@ -4222,8 +4860,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -14, y: -39}
-  m_SizeDelta: {x: 157.71002, y: 39.283997}
+  m_AnchoredPosition: {x: -36, y: -193.77997}
+  m_SizeDelta: {x: 295.08, y: 70.504}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1802849881
 MonoBehaviour:
@@ -4272,7 +4910,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.15
+  m_fontSize: 63.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4335,7 +4973,7 @@ GameObject:
   - component: {fileID: 1961112466}
   m_Layer: 5
   m_Name: RawImage
-  m_TagString: DropTarget
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4356,8 +4994,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00061035156, y: 0.0014953613}
-  m_SizeDelta: {x: 157.72, y: 144.89}
+  m_AnchoredPosition: {x: -0.00076293945, y: 0.0014953613}
+  m_SizeDelta: {x: 295.08, y: 274.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1961112466
 MonoBehaviour:
@@ -4407,7 +5045,7 @@ GameObject:
   - component: {fileID: 2098160120}
   m_Layer: 5
   m_Name: RawImage (19)
-  m_TagString: DropTarget
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4429,8 +5067,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -14, y: -89}
-  m_SizeDelta: {x: 157.71558, y: 144.89001}
+  m_AnchoredPosition: {x: -36, y: -289}
+  m_SizeDelta: {x: 295.0841, y: 274.4534}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &2098160120
 MonoBehaviour:

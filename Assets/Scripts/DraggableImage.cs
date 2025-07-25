@@ -1,7 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class DraggableImage : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
@@ -10,7 +9,8 @@ public class DraggableImage : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     private Vector2 originalPosition;
     private bool isDragging;
 
-    [SerializeField] private float returnSpeed = 5f;
+    [SerializeField] 
+    private float returnSpeed = 5f;
 
     void Awake()
     {
@@ -41,9 +41,14 @@ public class DraggableImage : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         canvasGroup.blocksRaycasts = true;
 
         GameObject dropTarget = eventData.pointerCurrentRaycast.gameObject;
-        if (dropTarget != null && dropTarget.CompareTag("DropTarget"))
+        if (dropTarget != null && dropTarget.CompareTag("Red"))
         {
-            // Score Logic here
+            GameManager.CheckIfCorrect(gameObject, 0);
+            Destroy(gameObject);
+        }
+        else if (dropTarget != null && dropTarget.CompareTag("Blue"))
+        {
+            GameManager.CheckIfCorrect(gameObject, 1);
             Destroy(gameObject);
         }
         else

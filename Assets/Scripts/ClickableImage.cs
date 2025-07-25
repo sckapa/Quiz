@@ -1,54 +1,38 @@
+using TMPro;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class ClickableImage : MonoBehaviour
 {
-    [SerializeField]
-    private Animals animal;
+    public bool Flying;
+    public bool Insect;
+    public bool Omnivorous;
+    public bool LivesInGroup;
+    public bool LaysEggs;
+
+    public string Description;
 
     [SerializeField]
-    private bool Flying;
+    private TMP_Text descriptionText;
     [SerializeField]
-    private bool Insect;
-    [SerializeField]
-    private bool Omnivorous;
-    [SerializeField]
-    private bool LivesInGroup;
-    [SerializeField]
-    private bool LaysEggs;
-
-    [SerializeField]
-    private string Description;
-
+    private TMP_Text nameText;
 
     [SerializeField] 
     private GameObject popupPanel;
-
-    private AnimalProperties animalProperties;
 
     void Start()
     {
         Button button = GetComponent<Button>();
         button.onClick.AddListener(() =>
         {
-            Debug.Log("Clicked: " + gameObject.name);
             ShowPopup();
         });
-
-        animalProperties.Flying = Flying;
-        animalProperties.Insect = Insect;
-        animalProperties.Omnivorous = Omnivorous;
-        animalProperties.LivesInGroup = LivesInGroup;
-        animalProperties.LaysEggs = LaysEggs;
-
-        animalProperties.Description = Description;
     }
 
     private void ShowPopup()
     {
+        nameText.SetText(gameObject.name);
+        descriptionText.SetText(gameObject.GetComponent<ClickableImage>().Description);
         popupPanel.SetActive(true);
-        // Popup panel elements
     }
-
 }
